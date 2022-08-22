@@ -23,24 +23,6 @@ head(trait_all)
 trait_all <- unique(trait_all)
 trait_cult <- unique(trait_cult)
 
-# transposing df of "trait_all"
-# sp_all <- as.vector(trait_all$scrubbed_species_binomial)
-# trait_name_all <- as.vector(trait_all$trait_name)
-# trait_val_all <- as.vector(trait_all$trait_value)
-# 
-# t_trait_all <- data.frame(rbind(sp_all,trait_name_all, trait_val_all))
-# colnames(t_trait_all) <- t_trait_all[1,]
-# t_trait_all <- t_trait_all[-1,]
-# 
-# # transposing df of "trait_cult"
-# sp_cult <- as.vector(trait_cult$scrubbed_species_binomial)
-# trait_name_cult <- as.vector(trait_cult$trait_name)
-# trait_value_cult <- as.vector(trait_cult$trait_value)
-# 
-# t_trait_cult <- data.frame(rbind(sp_cult, trait_name_cult, trait_value_cult))
-# colnames(t_trait_cult) <- t_trait_cult[1,] 
-# t_trait_cult <- t_trait_cult[-1,]
-
 ### filtering for growth forms trait
 
 gf_all <- dplyr::filter(trait_all, trait_name %in% "whole plant growth form")
