@@ -15,7 +15,22 @@ project/
      ├── docs/
 *    ├── figs/
      ├── R/
-*    ├── output/
 *    └── README.md
 ```
-In the `R` directory you will find the scripts. In the `docs` directory you will find a report. And in the `figs` directory you will find the graphs generated in this exercise. 
+The raw data used in the project can be found in `data/raw`, and processed data can be found in `data/processed`
+In the `docs` directory you will find a report, and also the .bib file containing the references. 
+In the `figs` directory you will find the graphs generated in this exercise.
+In the `R` directory you will find the scripts. 
+
+## Requirements
+
+The project was developed in `R`, using `RStudio`
+The packages used were `dplyr`, `BIEN`, `tidyr`, `vegan` and `ggplot2`.
+
+## Dataset
+
+All data used in this project was obtained using BIEN database. 
+
+## Instructions
+
+It is possible to reproduce this project following the scripts in order, they can be found in directory `R`.
