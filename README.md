@@ -18,8 +18,11 @@ project/
 *    └── README.md
 ```
 The raw data used in the project can be found in `data/raw`, and processed data can be found in `data/processed`.
+
 In the `docs` directory you will find a report, and also the .bib file containing the references. 
+
 In the `figs` directory you will find the graphs generated in this exercise.
+
 In the `R` directory you will find the scripts. 
 
 ## Requirements
